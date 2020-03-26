@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     # 3rd party
     'rest_framework',
     # custom apps
-    'authentication'
-
+    'authentication',
+    'covid'
 ]
 
 AUTH_USER_MODEL = 'authentication.User'
@@ -119,3 +119,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+COVID_SOURCE_URL = 'https://www.worldometers.info/coronavirus/'
